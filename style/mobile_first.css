@@ -14,9 +14,7 @@ color: #5F2C82
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {}
-
-div {
+body {
     height: 919px;
     position: relative;
 
@@ -29,7 +27,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 70vw;
+    /*width: 345px;*/
     margin: auto;
 }
 
@@ -77,7 +75,7 @@ form {
 
 #inside {
     background-color: #94CFCD;
-    width: 89%;
+    width: 80%;
     border: none;
     height: 30px;
     border-radius: 5px;
