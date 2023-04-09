@@ -15,10 +15,11 @@ color: #5F2C82
 }
 
 body {
-    height: 919px;
+    height: 100vh;
     position: relative;
 
     background-color: #5F2C82;
+
 }
 
 main {
