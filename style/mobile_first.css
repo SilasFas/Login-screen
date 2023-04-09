@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/*Mobile first*/
+
+/*
+color: #5F2C82
+#94CFCD
+*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 900px;
+    position: relative;
+
+    background-color: #5F2C82;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 70vw;
+    margin: auto;
+}
+
+.image {
+    background-color: blueviolet;
+    background-image: url(../images/building.jpg);
+    height: 200px;
+    padding: 10px;
+
+    border-radius: 15px 15px 0px 0px;
+}
+
+.login {
+    background-color: white;
+
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+}
+
+form {
+    margin: 5px;
+}
+
+#user {
+    background-color: #5F2C82;
+    border-radius: 10px;
+
+}
+
+#icon {
+    color: white;
+}
+
+#inside {
+    background-color: #94CFCD;
+    width: 89%;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    padding: 1px 1px 1px 5px;
+}
+
+#inside:focus {
+    background-color: white;
+}
+
+
+
+#submit {
+    display: block;
+}

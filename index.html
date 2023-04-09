@@ -6,30 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/mobile_first.css">
+
+
 </head>
 
 <body>
+
     <main>
 
         <section class="image">
-            photo
+            photo in css
         </section>
 
-        <section class="login_screen">
+        <section class="login">
 
             <h1>Login</h1>
             <p>Welcome back! Log in to access your account and be able to set up your environment.</p>
 
             <form action="form.php" method="get">
-                <input type="email" name="email" id="email">
-                <input type="password" name="" id="">
-                <input type="submit" value="Enter">
+
+                <p id="user">
+                    <span class="material-icons" id="icon">person</span>
+                    <input type="email" name="email" id="inside" placeholder="your e-mail">
+                </p>
+
+                <p id="user">
+                    <span class="material-icons" id="icon">key</span>
+                    <input type="password" name="" id="inside" placeholder="your password">
+                </p>
+
+                <input type="submit" value="Enter" id="submit">
                 <a href="#">Forgot password</a>
             </form>
 
         </section>
 
     </main>
+
 </body>
 
 </html>
