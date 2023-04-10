@@ -24,8 +24,23 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Welcome back! Log in to access your account and be able to set up your environment.</p>
-                <form action="form.php" method="post">
-
+                <form action="form.php" method="post" autocomplete="on">
+                    <div class="space">
+                        <span class="material-icons" id="icon">person</span>
+                        <input type="email" name="login" id="ilogin" placeholder="your e-mail" autocomplete="email"
+                            required maxlength="30">
+                        <label for="ilogin">Login</label>
+                    </div>
+                    <div class="space">
+                        <span class="material-icons" id="icon">key</span>
+                        <input type="password" name="pass" id="ipass" placeholder="your password"
+                            autocomplete="current-password" required minlength="8">
+                        <label for="ipass">Senha</label>
+                    </div>
+                    <input type="submit" value="Enter">
+                    <a href="#" class="btn">Forgot password
+                        <span class="material-icons" id="mail_icon">mail_outline</span>
+                    </a>
                 </form>
             </div>
         </section>
