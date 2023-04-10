@@ -2,11 +2,6 @@
 
 /*Mobile first*/
 
-/*
-color: #5F2C82
-#94CFCD
-*/
-
 * {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
@@ -39,6 +34,10 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    
+    transition: width 0.3s, height 0.3s;
+
+    transition-timing-function: ease;
 }
 
 #image {
